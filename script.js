@@ -262,7 +262,7 @@ function initScrollProgress() {
         left: 0;
         width: 0%;
         height: 3px;
-        background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+        background: linear-gradient(90deg, #2563eb 0%, #1d4ed8 100%);
         z-index: 1001;
         transition: width 0.1s ease;
     `;
@@ -400,7 +400,7 @@ function initThemeToggle() {
         height: 50px;
         border-radius: 50%;
         border: none;
-        background: #667eea;
+        background: #2563eb;
         color: white;
         font-size: 20px;
         cursor: pointer;
