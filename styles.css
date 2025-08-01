@@ -106,12 +106,12 @@ h1, h2, h3, h4, h5, h6 {
     position: fixed;
     top: 0;
     width: 100%;
-    background: #1a1a1a;
+    background: #000000;
     z-index: 1000;
     padding: 1rem 0;
     transition: all 0.3s ease;
     border-bottom: 3px solid #2563eb;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
 }
 
 .nav-container {
@@ -126,9 +126,9 @@ h1, h2, h3, h4, h5, h6 {
 .nav-logo a {
     font-size: 1.5rem;
     font-weight: 700;
-    color: #2563eb;
+    color: #ffffff;
     text-decoration: none;
-    text-shadow: 0 0 15px rgba(37, 99, 235, 0.7);
+    text-shadow: 0 0 15px rgba(255, 255, 255, 0.7);
 }
 
 .nav-menu {
@@ -140,7 +140,7 @@ h1, h2, h3, h4, h5, h6 {
 .nav-link {
     color: #ffffff;
     text-decoration: none;
-    font-weight: 600;
+    font-weight: 700;
     transition: all 0.3s ease;
     position: relative;
     padding: 0.5rem 1rem;
@@ -149,9 +149,9 @@ h1, h2, h3, h4, h5, h6 {
 
 .nav-link:hover {
     color: #2563eb;
-    background: rgba(37, 99, 235, 0.15);
+    background: rgba(37, 99, 235, 0.2);
     transform: translateY(-1px);
-    box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3);
+    box-shadow: 0 4px 12px rgba(37, 99, 235, 0.4);
 }
 
 .nav-link::after {
@@ -181,7 +181,7 @@ h1, h2, h3, h4, h5, h6 {
 .bar {
     width: 25px;
     height: 3px;
-    background: #2563eb;
+    background: #ffffff;
     margin: 3px 0;
     transition: 0.3s;
     border-radius: 2px;
