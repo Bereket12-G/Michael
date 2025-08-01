@@ -181,7 +181,7 @@ h1, h2, h3, h4, h5, h6 {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: linear-gradient(135deg, #ffffff 0%, #f8fafc 50%, #e2e8f0 100%);
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%);
     position: relative;
     padding-top: 80px;
 }
@@ -199,7 +199,8 @@ h1, h2, h3, h4, h5, h6 {
 .hero-title {
     font-size: 3.5rem;
     margin-bottom: 1rem;
-    color: #2d3748;
+    color: white;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 .highlight {
@@ -211,14 +212,14 @@ h1, h2, h3, h4, h5, h6 {
 
 .hero-subtitle {
     font-size: 1.5rem;
-    color: #2563eb;
+    color: rgba(255, 255, 255, 0.9);
     margin-bottom: 1rem;
     font-weight: 500;
 }
 
 .hero-description {
     font-size: 1.1rem;
-    color: #666;
+    color: rgba(255, 255, 255, 0.8);
     margin-bottom: 2rem;
     line-height: 1.8;
 }
@@ -285,7 +286,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .scroll-indicator a {
-    color: #2563eb;
+    color: white;
     font-size: 1.5rem;
 }
 
@@ -298,7 +299,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Resume Section */
 .resume {
     padding: 5rem 0;
-    background: #f9fafb;
+    background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
 }
 
 .resume-content {
@@ -403,7 +404,7 @@ h1, h2, h3, h4, h5, h6 {
 /* About Section */
 .about {
     padding: 5rem 0;
-    background: white;
+    background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
 }
 
 .about-content {
@@ -430,11 +431,12 @@ h1, h2, h3, h4, h5, h6 {
 .stat {
     text-align: center;
     padding: 1.5rem;
-    background: linear-gradient(135deg, #ffffff 0%, #f8fafc 100%);
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     border-radius: 12px;
     transition: transform 0.3s ease;
-    border: 1px solid #e2e8f0;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 8px 32px rgba(102, 126, 234, 0.3);
+    color: white;
 }
 
 .stat:hover {
@@ -473,7 +475,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Skills Section */
 .skills {
     padding: 5rem 0;
-    background: #f8fafc;
+    background: linear-gradient(135deg, #e0c3fc 0%, #8ec5fc 100%);
 }
 
 .skills-grid {
@@ -529,7 +531,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Projects Section */
 .projects {
     padding: 5rem 0;
-    background: white;
+    background: linear-gradient(135deg, #ff9a9e 0%, #fecfef 50%, #fecfef 100%);
 }
 
 .projects-grid {
@@ -602,7 +604,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Education Section */
 .education {
     padding: 5rem 0;
-    background: #f9fafb;
+    background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
 }
 
 .timeline {
@@ -704,7 +706,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Contact Section */
 .contact {
     padding: 5rem 0;
-    background: white;
+    background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
 }
 
 .contact-content {
