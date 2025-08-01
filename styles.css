@@ -480,53 +480,79 @@ h1, h2, h3, h4, h5, h6 {
 
 .skills-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 3rem;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
 }
 
 .skill-category h3 {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     color: #2d3748;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
     text-align: center;
 }
 
 .skill-items {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(90px, 1fr));
     gap: 1rem;
+    justify-items: center;
 }
 
 .skill-item {
     background: white;
-    padding: 1.5rem;
-    border-radius: 12px;
-    box-shadow: 0 4px 6px rgba(37, 99, 235, 0.1);
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(37, 99, 235, 0.08);
     transition: all 0.3s ease;
     position: relative;
     overflow: hidden;
     border: 1px solid #f1f5f9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 90px;
+    max-width: 120px;
 }
 
 .skill-item:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+    transform: translateY(-2px) scale(1.04);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
 }
 
 .skill-item i {
-    font-size: 2rem;
+    font-size: 1.7rem;
     color: #2563eb;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.3rem;
 }
 
 .skill-item span {
     display: block;
     font-weight: 500;
     color: #2d3748;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.2rem;
+    font-size: 0.98rem;
+    text-align: center;
 }
 
-/* Skill level bars removed - showing only icons */
+@media (max-width: 600px) {
+    .skills-grid {
+        grid-template-columns: 1fr;
+    }
+    .skill-items {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .skill-item {
+        min-width: 80px;
+        max-width: 100px;
+        padding: 0.7rem;
+    }
+    .skill-item i {
+        font-size: 1.2rem;
+    }
+    .skill-item span {
+        font-size: 0.9rem;
+    }
+}
 
 /* Projects Section */
 .projects {
