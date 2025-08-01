@@ -356,7 +356,7 @@ function initThemeToggle() {
         height: 50px;
         border-radius: 50%;
         border: none;
-        background: #6366f1;
+        background: #2563eb;
         color: white;
         font-size: 20px;
         cursor: pointer;
