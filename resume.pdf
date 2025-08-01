@@ -20,18 +20,82 @@ endobj
 /Parent 2 0 R
 /MediaBox [0 0 612 792]
 /Contents 4 0 R
+/Resources <<
+/Font <<
+/F1 <<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica-Bold
+>>
+/F2 <<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica
+>>
+>>
+>>
 >>
 endobj
 
 4 0 obj
 <<
-/Length 44
+/Length 500
 >>
 stream
 BT
-/F1 12 Tf
+/F1 24 Tf
 72 720 Td
-(Resume Placeholder) Tj
+(Your Name) Tj
+/F2 14 Tf
+0 -30 Td
+(High School Student & Aspiring Web Developer) Tj
+/F2 12 Tf
+0 -25 Td
+(Email: your.email@example.com | Phone: (123) 456-7890) Tj
+0 -20 Td
+(Location: Your City, State) Tj
+/F1 16 Tf
+0 -40 Td
+(EDUCATION) Tj
+/F2 12 Tf
+0 -20 Td
+(High School Diploma (In Progress)) Tj
+0 -15 Td
+(Your High School Name | 2021 - 2025) Tj
+0 -15 Td
+(GPA: 3.9/4.0 | Honor Roll) Tj
+/F1 16 Tf
+0 -30 Td
+(SKILLS) Tj
+/F2 12 Tf
+0 -20 Td
+(Frontend: HTML5, CSS3, JavaScript, React, Bootstrap) Tj
+0 -15 Td
+(Backend: Node.js, Python, SQL Basics) Tj
+0 -15 Td
+(Tools: Git, Figma, Responsive Design) Tj
+/F1 16 Tf
+0 -30 Td
+(PROJECTS) Tj
+/F2 12 Tf
+0 -20 Td
+(Quiz Game App - Interactive quiz with scoring system) Tj
+0 -15 Td
+(Calculator App - Scientific calculator with modern UI) Tj
+0 -15 Td
+(Personal Portfolio - Responsive portfolio website) Tj
+/F1 16 Tf
+0 -30 Td
+(ACHIEVEMENTS) Tj
+/F2 12 Tf
+0 -20 Td
+(Web Development Certification - FreeCodeCamp 2024) Tj
+0 -15 Td
+(Computer Science Club President 2023) Tj
+0 -15 Td
+(First Place - School Coding Competition 2023) Tj
+0 -15 Td
+(Honor Roll Student 2021-2024) Tj
 ET
 endstream
 endobj
@@ -49,5 +113,5 @@ trailer
 /Root 1 0 R
 >>
 startxref
-297
+753
 %%EOF
