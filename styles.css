@@ -45,7 +45,7 @@ h1, h2, h3, h4, h5, h6 {
     transform: translateX(-50%);
     width: 60px;
     height: 4px;
-    background: linear-gradient(90deg, #ff6b6b 0%, #4ecdc4 50%, #45b7d1 100%);
+    background: linear-gradient(90deg, #6366f1 0%, #8b5cf6 100%);
     border-radius: 2px;
 }
 
@@ -63,23 +63,23 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .btn-primary {
-    background: linear-gradient(135deg, #ff6b6b 0%, #4ecdc4 100%);
+    background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
     color: white;
 }
 
 .btn-primary:hover {
     transform: translateY(-2px);
-    box-shadow: 0 10px 25px rgba(255, 107, 107, 0.3);
+    box-shadow: 0 10px 25px rgba(99, 102, 241, 0.3);
 }
 
 .btn-secondary {
     background: transparent;
-    color: #4ecdc4;
-    border: 2px solid #4ecdc4;
+    color: #6366f1;
+    border: 2px solid #6366f1;
 }
 
 .btn-secondary:hover {
-    background: #4ecdc4;
+    background: #6366f1;
     color: white;
     transform: translateY(-2px);
 }
@@ -91,12 +91,12 @@ h1, h2, h3, h4, h5, h6 {
 
 .btn-outline {
     background: transparent;
-    color: #ff6b6b;
-    border: 1px solid #ff6b6b;
+    color: #6366f1;
+    border: 1px solid #6366f1;
 }
 
 .btn-outline:hover {
-    background: #ff6b6b;
+    background: #6366f1;
     color: white;
 }
 
@@ -124,7 +124,7 @@ h1, h2, h3, h4, h5, h6 {
 .nav-logo a {
     font-size: 1.5rem;
     font-weight: 700;
-    color: #ff6b6b;
+    color: #6366f1;
     text-decoration: none;
 }
 
@@ -143,7 +143,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-link:hover {
-    color: #4ecdc4;
+    color: #6366f1;
 }
 
 .nav-link::after {
@@ -153,7 +153,7 @@ h1, h2, h3, h4, h5, h6 {
     left: 0;
     width: 0;
     height: 2px;
-    background: #4ecdc4;
+    background: #6366f1;
     transition: width 0.3s ease;
 }
 
@@ -180,7 +180,7 @@ h1, h2, h3, h4, h5, h6 {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: linear-gradient(135deg, #ffeaa7 0%, #fab1a0 50%, #fd79a8 100%);
+    background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 50%, #cbd5e1 100%);
     position: relative;
     padding-top: 80px;
 }
@@ -202,7 +202,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .highlight {
-    background: linear-gradient(135deg, #ff6b6b 0%, #4ecdc4 50%, #45b7d1 100%);
+    background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -238,7 +238,7 @@ h1, h2, h3, h4, h5, h6 {
     background: white;
     padding: 2rem;
     border-radius: 20px;
-    box-shadow: 0 20px 40px rgba(255, 107, 107, 0.2);
+    box-shadow: 0 20px 40px rgba(99, 102, 241, 0.15);
     text-align: center;
     animation: float 6s ease-in-out infinite;
 }
@@ -251,7 +251,7 @@ h1, h2, h3, h4, h5, h6 {
 .profile-avatar {
     width: 120px;
     height: 120px;
-    background: linear-gradient(135deg, #ff6b6b 0%, #4ecdc4 50%, #45b7d1 100%);
+    background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -270,7 +270,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .profile-info p {
-    color: #4ecdc4;
+    color: #6366f1;
     font-weight: 500;
 }
 
@@ -283,7 +283,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .scroll-indicator a {
-    color: #ff6b6b;
+    color: #6366f1;
     font-size: 1.5rem;
 }
 
@@ -296,7 +296,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Resume Section */
 .resume {
     padding: 5rem 0;
-    background: linear-gradient(135deg, #ffeaa7 0%, #fab1a0 20%, #fd79a8 100%);
+    background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
 }
 
 .resume-content {
@@ -314,10 +314,11 @@ h1, h2, h3, h4, h5, h6 {
     background: white;
     padding: 3rem;
     border-radius: 20px;
-    box-shadow: 0 20px 40px rgba(255, 107, 107, 0.2);
+    box-shadow: 0 20px 40px rgba(99, 102, 241, 0.15);
     max-width: 500px;
     margin: 0 auto;
     transition: transform 0.3s ease;
+    border: 1px solid #e2e8f0;
 }
 
 .resume-card:hover {
@@ -327,7 +328,7 @@ h1, h2, h3, h4, h5, h6 {
 .resume-icon {
     width: 80px;
     height: 80px;
-    background: linear-gradient(135deg, #ff6b6b 0%, #4ecdc4 50%, #45b7d1 100%);
+    background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -369,7 +370,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .resume-detail i {
-    color: #ff6b6b;
+    color: #6366f1;
     font-size: 1.1rem;
 }
 
@@ -415,9 +416,10 @@ h1, h2, h3, h4, h5, h6 {
 .stat {
     text-align: center;
     padding: 1.5rem;
-    background: linear-gradient(135deg, #ffeaa7 0%, #fab1a0 20%, #fd79a8 100%);
+    background: linear-gradient(135deg, #f1f5f9 0%, #e2e8f0 100%);
     border-radius: 12px;
     transition: transform 0.3s ease;
+    border: 1px solid #e2e8f0;
 }
 
 .stat:hover {
@@ -482,10 +484,11 @@ h1, h2, h3, h4, h5, h6 {
     background: white;
     padding: 1.5rem;
     border-radius: 12px;
-    box-shadow: 0 4px 6px rgba(255, 107, 107, 0.1);
+    box-shadow: 0 4px 6px rgba(99, 102, 241, 0.1);
     transition: all 0.3s ease;
     position: relative;
     overflow: hidden;
+    border: 1px solid #f1f5f9;
 }
 
 .skill-item:hover {
@@ -495,7 +498,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .skill-item i {
     font-size: 2rem;
-    color: #ff6b6b;
+    color: #6366f1;
     margin-bottom: 0.5rem;
 }
 
@@ -535,7 +538,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .project-image {
     height: 200px;
-    background: linear-gradient(135deg, #ff6b6b 0%, #4ecdc4 50%, #45b7d1 100%);
+    background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -567,12 +570,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .project-tech span {
-    background: linear-gradient(135deg, #ffeaa7 0%, #fab1a0 50%, #fd79a8 100%);
-    color: #4a5568;
+    background: linear-gradient(135deg, #f1f5f9 0%, #e2e8f0 100%);
+    color: #475569;
     padding: 0.25rem 0.75rem;
     border-radius: 20px;
     font-size: 0.9rem;
     font-weight: 500;
+    border: 1px solid #cbd5e1;
 }
 
 .project-links {
@@ -583,7 +587,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Education Section */
 .education {
     padding: 5rem 0;
-    background: linear-gradient(135deg, #ffeaa7 0%, #fab1a0 20%, #fd79a8 100%);
+    background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
 }
 
 .timeline {
@@ -636,7 +640,7 @@ h1, h2, h3, h4, h5, h6 {
     top: 50%;
     width: 20px;
     height: 20px;
-    background: linear-gradient(135deg, #ff6b6b 0%, #4ecdc4 50%, #45b7d1 100%);
+    background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
     border-radius: 50%;
     transform: translateY(-50%);
 }
@@ -650,7 +654,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .timeline-date {
-    color: #2563eb;
+    color: #6366f1;
     font-weight: 600;
     margin-bottom: 0.5rem;
 }
