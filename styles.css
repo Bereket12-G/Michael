@@ -45,7 +45,7 @@ h1, h2, h3, h4, h5, h6 {
     transform: translateX(-50%);
     width: 60px;
     height: 4px;
-    background: linear-gradient(90deg, #6366f1 0%, #8b5cf6 100%);
+    background: #2563eb;
     border-radius: 2px;
 }
 
@@ -63,23 +63,24 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .btn-primary {
-    background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
+    background: #2563eb;
     color: white;
 }
 
 .btn-primary:hover {
     transform: translateY(-2px);
-    box-shadow: 0 10px 25px rgba(99, 102, 241, 0.3);
+    box-shadow: 0 10px 25px rgba(37, 99, 235, 0.3);
+    background: #1d4ed8;
 }
 
 .btn-secondary {
     background: transparent;
-    color: #6366f1;
-    border: 2px solid #6366f1;
+    color: #2563eb;
+    border: 2px solid #2563eb;
 }
 
 .btn-secondary:hover {
-    background: #6366f1;
+    background: #2563eb;
     color: white;
     transform: translateY(-2px);
 }
@@ -91,12 +92,12 @@ h1, h2, h3, h4, h5, h6 {
 
 .btn-outline {
     background: transparent;
-    color: #6366f1;
-    border: 1px solid #6366f1;
+    color: #2563eb;
+    border: 1px solid #2563eb;
 }
 
 .btn-outline:hover {
-    background: #6366f1;
+    background: #2563eb;
     color: white;
 }
 
@@ -124,7 +125,7 @@ h1, h2, h3, h4, h5, h6 {
 .nav-logo a {
     font-size: 1.5rem;
     font-weight: 700;
-    color: #6366f1;
+    color: #2563eb;
     text-decoration: none;
 }
 
