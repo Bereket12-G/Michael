@@ -414,29 +414,7 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 0.5rem;
 }
 
-.skill-level {
-    height: 6px;
-    background: #e2e8f0;
-    border-radius: 3px;
-    overflow: hidden;
-    position: relative;
-}
-
-.skill-level::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    background: linear-gradient(90deg, #ff6b6b 0%, #4ecdc4 50%, #45b7d1 100%);
-    border-radius: 3px;
-    width: 0;
-    animation: skillFill 2s ease-out forwards;
-}
-
-@keyframes skillFill {
-    to { width: var(--skill-level); }
-}
+/* Skill level bars removed - showing only icons */
 
 /* Projects Section */
 .projects {

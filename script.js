@@ -64,17 +64,13 @@ function initSmoothScrolling() {
     });
 }
 
-// Skill Level Animations
+// Skill Animations (simplified - icons only)
 function initSkillAnimations() {
     const skillItems = document.querySelectorAll('.skill-item');
     
     const observer = new IntersectionObserver((entries) => {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
-                const skillLevel = entry.target.querySelector('.skill-level');
-                const level = skillLevel.getAttribute('data-level');
-                skillLevel.style.setProperty('--skill-level', level + '%');
-                
                 // Add animation class
                 entry.target.style.opacity = '1';
                 entry.target.style.transform = 'translateY(0)';
@@ -324,47 +320,7 @@ function initParallaxEffect() {
 // Initialize parallax
 initParallaxEffect();
 
-// Skill Level Tooltip
-function initSkillTooltips() {
-    const skillItems = document.querySelectorAll('.skill-item');
-    
-    skillItems.forEach(item => {
-        const skillLevel = item.querySelector('.skill-level');
-        const level = skillLevel.getAttribute('data-level');
-        
-        // Create tooltip
-        const tooltip = document.createElement('div');
-        tooltip.className = 'skill-tooltip';
-        tooltip.textContent = `${level}%`;
-        tooltip.style.cssText = `
-            position: absolute;
-            top: -30px;
-            right: 0;
-            background: #2d3748;
-            color: white;
-            padding: 4px 8px;
-            border-radius: 4px;
-            font-size: 12px;
-            opacity: 0;
-            transition: opacity 0.3s ease;
-            pointer-events: none;
-        `;
-        
-        skillLevel.appendChild(tooltip);
-        
-        // Show/hide tooltip on hover
-        item.addEventListener('mouseenter', function() {
-            tooltip.style.opacity = '1';
-        });
-        
-        item.addEventListener('mouseleave', function() {
-            tooltip.style.opacity = '0';
-        });
-    });
-}
-
-// Initialize skill tooltips
-initSkillTooltips();
+/* Skill tooltips removed - showing only icons */
 
 // Lazy Loading for Images (if you add real images later)
 function initLazyLoading() {
