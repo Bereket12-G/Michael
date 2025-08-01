@@ -539,18 +539,18 @@ h1, h2, h3, h4, h5, h6 {
         grid-template-columns: 1fr;
     }
     .skill-items {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
     }
     .skill-item {
-        min-width: 80px;
-        max-width: 100px;
-        padding: 0.7rem;
+        min-width: 70px;
+        max-width: 90px;
+        padding: 0.6rem;
     }
     .skill-item i {
-        font-size: 1.2rem;
+        font-size: 1.1rem;
     }
     .skill-item span {
-        font-size: 0.9rem;
+        font-size: 0.85rem;
     }
 }
 
