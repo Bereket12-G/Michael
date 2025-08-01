@@ -480,9 +480,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .skills-grid {
-    display: flex;
-    justify-content: center;
-    gap: 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 3rem;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .skill-category h3 {
@@ -494,17 +496,15 @@ h1, h2, h3, h4, h5, h6 {
 
 .skill-items {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-    gap: 1.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(90px, 1fr));
+    gap: 1rem;
     justify-items: center;
-    max-width: 800px;
-    margin: 0 auto;
 }
 
 .skill-item {
     background: #1a1a1a;
-    padding: 1.2rem;
-    border-radius: 12px;
+    padding: 1rem;
+    border-radius: 10px;
     box-shadow: 0 2px 8px rgba(37, 99, 235, 0.2);
     transition: all 0.3s ease;
     position: relative;
@@ -513,8 +513,8 @@ h1, h2, h3, h4, h5, h6 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    min-width: 100px;
-    max-width: 130px;
+    min-width: 90px;
+    max-width: 120px;
 }
 
 .skill-item:hover {
