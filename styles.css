@@ -106,12 +106,13 @@ h1, h2, h3, h4, h5, h6 {
     position: fixed;
     top: 0;
     width: 100%;
-    background: rgba(0, 0, 0, 0.95);
-    backdrop-filter: blur(10px);
+    background: rgba(0, 0, 0, 0.98);
+    backdrop-filter: blur(15px);
     z-index: 1000;
     padding: 1rem 0;
     transition: all 0.3s ease;
-    border-bottom: 1px solid #2563eb;
+    border-bottom: 2px solid #2563eb;
+    box-shadow: 0 4px 20px rgba(37, 99, 235, 0.2);
 }
 
 .nav-container {
@@ -126,8 +127,9 @@ h1, h2, h3, h4, h5, h6 {
 .nav-logo a {
     font-size: 1.5rem;
     font-weight: 700;
-    color: #2563eb;
+    color: #ffffff;
     text-decoration: none;
+    text-shadow: 0 0 10px rgba(37, 99, 235, 0.5);
 }
 
 .nav-menu {
@@ -137,30 +139,37 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-link {
-    color: #ffffff;
+    color: #cccccc;
     text-decoration: none;
     font-weight: 500;
-    transition: color 0.3s ease;
+    transition: all 0.3s ease;
     position: relative;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
 }
 
 .nav-link:hover {
-    color: #2563eb;
+    color: #ffffff;
+    background: rgba(37, 99, 235, 0.1);
+    transform: translateY(-1px);
 }
 
 .nav-link::after {
     content: '';
     position: absolute;
-    bottom: -5px;
-    left: 0;
+    bottom: -2px;
+    left: 50%;
     width: 0;
     height: 2px;
-    background: #2563eb;
-    transition: width 0.3s ease;
+    background: linear-gradient(90deg, #2563eb 0%, #1d4ed8 100%);
+    transition: all 0.3s ease;
+    transform: translateX(-50%);
+    border-radius: 1px;
 }
 
 .nav-link:hover::after {
-    width: 100%;
+    width: 80%;
+    box-shadow: 0 0 10px rgba(37, 99, 235, 0.5);
 }
 
 .hamburger {
