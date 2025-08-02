@@ -203,11 +203,10 @@ h1, h2, h3, h4, h5, h6 {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
-    display: flex;
-    flex-direction: column;
-    gap: 3rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
     align-items: center;
-    text-align: center;
 }
 
 .hero-title {
@@ -252,19 +251,12 @@ h1, h2, h3, h4, h5, h6 {
 
 .profile-card {
     background: #1a1a1a;
-    padding: 2.5rem;
-    border-radius: 25px;
-    box-shadow: 0 25px 50px rgba(37, 99, 235, 0.4);
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 0 20px 40px rgba(37, 99, 235, 0.3);
     text-align: center;
     animation: float 6s ease-in-out infinite;
-    border: 2px solid #2563eb;
-    backdrop-filter: blur(10px);
-    transition: all 0.3s ease;
-}
-
-.profile-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 30px 60px rgba(37, 99, 235, 0.5);
+    border: 1px solid #2563eb;
 }
 
 @keyframes float {
